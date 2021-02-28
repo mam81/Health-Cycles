@@ -8,6 +8,7 @@ import { ChallengesBox } from "../components/ChallengesBox";
 
 import styles from "../styles/pages/Home.module.css"
 import Countdown from "../components/Countdown";
+import { CountdownProvider } from "../contexts/CountdownContext";
 
 export default function Home() {
   return (
@@ -16,16 +17,19 @@ export default function Home() {
         <title>Início | Helath-Cycles</title>
       </Head>
       <ExperienceBar />
-      <section>
-        <div>
-          <Profile />
-          <CompletedChallenges />
-          <Countdown />
-        </div>
-        <div>
-          <ChallengesBox />
-        </div>
-      </section>
+
+      <CountdownProvider>
+        <section>
+          <div>
+            <Profile />
+            <CompletedChallenges />
+            <Countdown />
+          </div>
+          <div>
+            <ChallengesBox />
+          </div>
+        </section>
+      </CountdownProvider>
     </div>
   )
 }
