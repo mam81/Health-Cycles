@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Health Cycles :heart: :muscle: 
 
-## Getting Started
+[Link do projeto](https://health-cycles.vercel.app/)
 
-First, run the development server:
+![](src/imgs/layout1.png)
+![](src/imgs/layout.png)
+![](src/imgs/layout2.png)
+![](src/imgs/layout3.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## O projeto consiste atráves de uma gameficação, poder proporcionar que o usuário tenha uma melhora corporal e mental,através de intervalos de tempos para uma pausa em suas atividades e proporcionar um movimento corporal antes da volta de sua respectiva tarefa
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Na aplicação, há uma barra de experiência com pontuações referentes a execução de tarefas (desafios) que são dispostas depois de 25min,para que o usuário saia por alguns momentos de sua atividade atual para fazer alguma atividade física leve.Há a opção de abandonar o ciclo (voltando o tempo inicial) e a assim que mostrada a atividade a ser executada,há um botão para informar que foi completada a tarefa e outro especificando que não foi possível a sua realização (não sendo acrescido pontos à sua barra de experiência.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### É mostrado a quantidade de desafios completos
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Há uma lista de tarefas para execução, como por exemplos:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- "Estique um de seus braços com a palma da mão virada para frente e puxe os dedos para cima por 10 segundos por mão"
+- "Puxe o joelho de encontro ao peito e segure, troque de perna após 10 segundos"
+- "Em algum ambiente aberto, olhe o mais longe que puder em quatro direções por 3s, mexa apenas os olhos. Repita 3 vezes" 
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### A ideia é deixar as tarefas como dinâmicas e que realmente trabalhem vários membros corporais para propiciar uma melhor produtividade de trabalho ao usuário por uma melhor qualidade de saúde pela prática de exercícios cotidianos.
